@@ -17,7 +17,8 @@ Task was to make two aspx pages which display all the information from attached 
 
 ## Installing
 
-Main task and app explanation is in App_Data folder
+Main task and app explanation is in App_Data folder.
+
 You should have installed Visual Studio 2017. Depending on your machine you may need to do some extra steps.
 
 ##Deployment
