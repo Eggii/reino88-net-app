@@ -1,0 +1,68 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+body {
+    margin: 15px;
+    padding: 15px;
+    border: solid gray;
+}
+
+#container-sort-by {
+    border: solid gray;
+    padding: 4px 0px 4px 15px;
+    margin: 15px 0 15px 0;
+}
+
+#DDLSortProducts {
+    margin: 2px 15px 2px 15px;
+}
+
+.product {
+    border: solid gray;
+    padding: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.container-left {
+    width: 70%;
+    float: left;
+    margin-right: 15px;
+}
+
+.popular {
+    display: none;
+}
+
+.container-right {
+    border: solid gray;
+    overflow: hidden;
+    padding: 15px;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+.btnMoreDetails {
+    margin: 10px 0 10px 0;
+}
+
+@media screen and (max-width: 540px) {
+    .container-left {
+        float: none;
+    }
+
+    img {
+        float: none;
+    }
+}

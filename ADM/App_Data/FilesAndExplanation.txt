@@ -1,0 +1,60 @@
+﻿App explanation.
+
+Folders and files 
+
+Solution items
+	README.md
+
+	App_Data
+		Requirements
+			CTest.docx - Main task
+			Details.png
+			List.png
+		FilesAndExplanation.txt
+
+Content
+	CSS
+		Detail.css - DetailView.aspx css file.
+		Errors.css - InternalServerError.aspx & NotFoundError.aspx css file.
+		List.css - ListView.aspx css file.
+
+	Images
+		no-imamge-available.jpg - if xml wont provide image to product, then it is backup image.
+		prod01.gif - original image in xml file elements.
+
+	Xmls
+		Detail.xml - data file for products.
+		List.xml - data file for product details.
+
+ErrorPages
+	InternalServerError.aspx - if something goes wrong, user is redirect to this page.
+	NotFoundError.aspx - if user writes wrong address and browser cant find page, user is redirect to this page.
+	
+Scripts
+	SortingMethods
+		SortByNumericalValue.js - method for sorting HTML element by attribute numerical value.
+		SortProducts.js - method for client-side product sorting.
+		jquery-3.3.1 intellisense and other script files.
+		ProductAvailability.js - ajax method for getting avalability from Detail.xml to ListView.aspx.
+
+DetailList.cs - variables for DetailView.aspx.
+DetailView.aspx - view for product details.
+
+ListView.aspx - products output view, also main view. 
+	IF WANTED OR NEEDED - YOU HAVE TO PROVIDE CORRECT XML ADDRESSES
+
+ProductList.cs - variables for ListView.aspx
+XmlManipulation.cs - class for holding xml manipulation methods.
+
+
+Web.config - For errors I added redirecting:
+	<customErrors mode="RemoteOnly" defaultRedirect="~/ErrorPages/InternalServerError.aspx/">
+        <error statusCode="404" redirect="~/ErrorPages/NotFound.aspx/"/>
+    </customErrors>
+
+
+
+Other Info.
+
+1. This is Responsive website with two pages.
+2. Installed Json.NET framework for JSON objects from NuGet package manager.

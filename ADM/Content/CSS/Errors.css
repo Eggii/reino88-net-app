@@ -1,0 +1,31 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 10% 25% 0 25%;
+}
+
+#smile {
+    font-size: 86px;
+    font-family: 'Century Gothic';
+    margin-left: 60%;
+    transform: rotate(90deg);
+}
+
+#p1 {
+    color: grey;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.paragraph-style1 {
+    color: rebeccapurple;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+h2 {
+    margin: 20px 0 70px 0;
+}
