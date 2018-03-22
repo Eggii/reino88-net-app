@@ -21,7 +21,7 @@ Main task and app explanation is in App_Data folder.
 
 You should have installed Visual Studio 2017. Depending on your machine you may need to do some extra steps.
 
-##Deployment
+## Deployment
 
 ## Task
 First page list.aspx should display all the information from list.xml and availability from details.xml. Allow client side product block sorting with jquery by price and popularity in both ascending and descending direction. List page has to remember sorting type and direction if user is browsing between list and details page. Products availability must be retrieved with ajax call(s) from second page.
@@ -37,4 +37,6 @@ Visual studio ASP.NET Web Application project containing at least two aspx web p
 Reino Veskimäe
 
 ## Licence
-[Attribution-NoDerivatives 4.0 International  (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/legalcode)# ADM_App
+[Attribution-NoDerivatives 4.0 International  (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/legalcode)
+
+# ADM_App
