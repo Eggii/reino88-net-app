@@ -14,7 +14,11 @@ Task was to make two aspx pages which display all the information from attached 
 
 -   [Visual Studio 2017](https://www.visualstudio.com/downloads/) 
     - [Visual Studio 2017 Product Family System Requirements](https://docs.microsoft.com/en-us/visualstudio/productinfo/vs2017-system-requirements-vs)
+    
+##
 
+-   .Net Framework
+    - Target framework net461
 ## Installing
 
 Main task and app explanation is in App_Data folder.
